@@ -5,4 +5,5 @@ $ git config --global user.email "252532242@qq.com"
 $ git init  // 初始化git仓库
 $ git add <fileName1> <fileName2>  // 添加文件
 $ git commit -m "comment"  // 提交文件
-$ git status  // 查看修改内容
+$ git status  // 查看工作区的状态
+$ git diff  // 查看修改的内容

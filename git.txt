@@ -1,9 +1,13 @@
-// ����ȫ�ֵ��û���������   
+// 设置全局的用户名和邮箱   
 $ git config --global user.name "baojian"
 $ git config --global user.email "252532242@qq.com"
 
-$ git init  // ��ʼ��git�ֿ�
-$ git add <fileName1> <fileName2>  // �����ļ�
-$ git commit -m "comment"  // �ύ�ļ�
-$ git status  // �鿴��������״̬
-$ git diff  // �鿴�޸ĵ�����
+$ git init  // 初始化git仓库
+$ git add <fileName1> <fileName2>  // 添加文件
+$ git commit -m "comment"  // 提交文件
+$ git status  // 查看工作区的状态
+$ git diff  // 查看修改的内容
+$ git reset --hard HEAD^^^ // 回退3个版本 等价于 HEAD~3
+$ git reset --hard commit_id // 跳到指定版本，提交的版本号可以只写前面几位
+$ git log // 查看提交历史
+$ git reflog // 查看命令历史(可以显示提交版本号commit_id)

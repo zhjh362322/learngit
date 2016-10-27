@@ -1,23 +1,7 @@
-
-1111111111111
-
-2222222222
-
-
-branch dev
-
-git gui
-
-git branch <name>
-git checkout name
+git checkout -b dev
 git add .
 git commit -m ""
 git checkout master
-git merge dev
-git branch -d ooo
-git branch -d ddv
-
-git conflict new
-
-add
+git merge --no-ff -m "" dev
+git log --graph --pretty=oneline --abbrev-commit
 

@@ -5,3 +5,13 @@
 
 
 branch dev
+
+git gui
+
+git branch <name>
+git checkout name
+git add .
+git commit -m ""
+git checkout master
+git merge dev
+git branch -d dev

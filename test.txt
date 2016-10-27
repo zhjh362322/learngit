@@ -19,3 +19,5 @@ git branch -d ddv
 
 git conflict new
 
+add
+

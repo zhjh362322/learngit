@@ -15,3 +15,7 @@ git commit -m ""
 git checkout master
 git merge dev
 git branch -d ooo
+git branch -d ddv
+
+git conflict
+

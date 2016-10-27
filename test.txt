@@ -1,7 +1,2 @@
-git checkout -b dev
-git add .
-git commit -m ""
-git checkout master
-git merge --no-ff -m "" dev
-git log --graph --pretty=oneline --abbrev-commit
+fast forward
 

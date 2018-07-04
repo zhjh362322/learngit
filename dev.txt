@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-dev 
-git stash
-=======
-dev
->>>>>>> dev
